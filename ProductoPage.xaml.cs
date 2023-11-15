@@ -32,5 +32,6 @@ public partial class ProductoPage : ContentPage
     private async void OnClickedShowDetails(object sender, SelectedItemChangedEventArgs e)
     {
         Producto producto = e.SelectedItem as Producto;
+        await Navigation.PushAsync(new DetalleProductoPage(producto));
     }
 }
