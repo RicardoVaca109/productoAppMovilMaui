@@ -21,6 +21,7 @@ public partial class NuevoProducto : ContentPage
             CtdenStock = Int32.Parse(CtdenStock.Text),
             Precio = float.Parse(Precio.Text)
         };
-        Utils.Utils.ListaProductos.Add(producto); 
+        Utils.Utils.ListaProductos.Add(producto);
+        await Navigation.PopAsync();
     }
 }
