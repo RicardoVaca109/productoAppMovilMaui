@@ -19,7 +19,7 @@
                 HorizontalOptions="Fill"
                 Clicked="OnClickNuevoProducto"
                 Margin="5"/>
-            <ListView x:Name="ListaProductos"
+        <ListView x:Name="ListaProductos"
                   RowHeight="80">
                 <ListView.ItemTemplate>
                     <DataTemplate>

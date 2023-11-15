@@ -17,7 +17,7 @@ public partial class ProductoPage : ContentPage
 	private async void OnClickNuevoProducto(object sender, EventArgs e)
 	{
 		var toast = CommunityToolkit.Maui.Alerts.Toast.Make("Click en nuevo producto", ToastDuration.Short, 14);
-        //await Navigation.PushAsync(new NuevoProducto());
+        //await Navigation.PushAsync(NuevoProducto());
         await toast.Show();
 		
 	}
