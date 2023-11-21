@@ -8,51 +8,51 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = productoApp
-build_property.ProjectDir = C:\Users\laboratorio\clonProgra\
+build_property.ProjectDir = R:\prograFinal\productoApp\
 
-[C:/Users/laboratorio/clonProgra/App.xaml]
+[R:/prograFinal/productoApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/laboratorio/clonProgra/AppShell.xaml]
+[R:/prograFinal/productoApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/laboratorio/clonProgra/DetalleProductoPage.xaml]
+[R:/prograFinal/productoApp/DetalleProductoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.DetalleProductoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = DetalleProductoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = DetalleProductoPage.xaml
 
-[C:/Users/laboratorio/clonProgra/MainPage.xaml]
+[R:/prograFinal/productoApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/laboratorio/clonProgra/NuevoProductoPage.xaml]
+[R:/prograFinal/productoApp/NuevoProductoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.NuevoProductoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = NuevoProductoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = NuevoProductoPage.xaml
 
-[C:/Users/laboratorio/clonProgra/ProductoPage.xaml]
+[R:/prograFinal/productoApp/ProductoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.ProductoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ProductoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ProductoPage.xaml
 
-[C:/Users/laboratorio/clonProgra/Resources/Styles/Colors.xaml]
+[R:/prograFinal/productoApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/laboratorio/clonProgra/Resources/Styles/Styles.xaml]
+[R:/prograFinal/productoApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

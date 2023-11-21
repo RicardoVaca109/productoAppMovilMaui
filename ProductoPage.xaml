@@ -22,20 +22,21 @@
         <ListView x:Name="ListaProductos"
                   RowHeight="80"
                   ItemSelected="OnClickedShowDetails">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Orientation="Horizontal">
-                                <Image Source="dotnet_bot.png"
+        
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="dotnet_bot.png"
                                        HeightRequest="50"
                                        WidthRequest="100"/>
-                                <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Vertical">
                                 <Label 
                                         Text = "{Binding Nombre, StringFormat='Nombre: {0}' }"
                                         VerticalOptions="Start"
                                         FontSize="20"  
                                         />
-                                    <Label 
+                                <Label 
                                            Text = "{Binding CtdenStock, StringFormat='Cantidad en Stock: {0}'}"
                                            VerticalOptions="Center"
                                            FontSize="15"/>
@@ -43,9 +44,16 @@
                                            VerticalOptions="End"
                                            FontSize="14"/>
                             </StackLayout>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
+                            <Button Text="Eliminar"
+                                    TextColor="WhiteSmoke"
+                                    FontSize="10"
+                                    BackgroundColor="Red"
+                                    HorizontalOptions="EndAndExpand"
+                                    Clicked="OnClickNuevoProducto"
+                                    Margin="5"/>    
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
     </VerticalStackLayout>
