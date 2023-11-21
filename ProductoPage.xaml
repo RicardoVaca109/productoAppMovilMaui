@@ -20,7 +20,8 @@
                 Clicked="OnClickNuevoProducto"
                 Margin="5"/>
         <ListView x:Name="ListaProductos"
-                  RowHeight="80">
+                  RowHeight="80"
+                  ItemSelected="OnClickedShowDetails">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

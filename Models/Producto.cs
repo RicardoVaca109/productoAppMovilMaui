@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace productoApp.Models
 {
-    internal class Producto
-    {
+        public class Producto
+       {
         public int ProductoId { get; set; }
 
         public string Nombre { get; set; }
