@@ -12,51 +12,51 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = productoApp
-build_property.ProjectDir = R:\prograFinal\productoApp\
+build_property.ProjectDir = C:\Users\laboratorio\Source\Repos\productoAppMovilMaui\
 
-[R:/prograFinal/productoApp/App.xaml]
+[C:/Users/laboratorio/Source/Repos/productoAppMovilMaui/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[R:/prograFinal/productoApp/AppShell.xaml]
+[C:/Users/laboratorio/Source/Repos/productoAppMovilMaui/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[R:/prograFinal/productoApp/DetalleProductoPage.xaml]
+[C:/Users/laboratorio/Source/Repos/productoAppMovilMaui/DetalleProductoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.DetalleProductoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = DetalleProductoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = DetalleProductoPage.xaml
 
-[R:/prograFinal/productoApp/MainPage.xaml]
+[C:/Users/laboratorio/Source/Repos/productoAppMovilMaui/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[R:/prograFinal/productoApp/NuevoProductoPage.xaml]
+[C:/Users/laboratorio/Source/Repos/productoAppMovilMaui/NuevoProductoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.NuevoProductoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = NuevoProductoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = NuevoProductoPage.xaml
 
-[R:/prograFinal/productoApp/ProductoPage.xaml]
+[C:/Users/laboratorio/Source/Repos/productoAppMovilMaui/ProductoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.ProductoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ProductoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ProductoPage.xaml
 
-[R:/prograFinal/productoApp/Resources/Styles/Colors.xaml]
+[C:/Users/laboratorio/Source/Repos/productoAppMovilMaui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[R:/prograFinal/productoApp/Resources/Styles/Styles.xaml]
+[C:/Users/laboratorio/Source/Repos/productoAppMovilMaui/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = productoApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

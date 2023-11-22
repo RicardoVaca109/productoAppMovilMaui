@@ -9,10 +9,10 @@
                 <TableSection Title="Ingrese Nuevo Producto">
                     <EntryCell x:Name="Nombre"
                                Placeholder="Nombre"/>
-                    <EntryCell x:Name="CtdenStock"
-                               Placeholder="Cantidad en Stock"/>
                     <EntryCell x:Name="Descripcion"
                                Placeholder="Descripcion"/>
+                    <EntryCell x:Name="CtdenStock"
+                               Placeholder="Cantidad en Stock"/>
                     <EntryCell x:Name="Precio"
                                Placeholder="Precio"/>
                 </TableSection>
