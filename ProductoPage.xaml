@@ -49,7 +49,7 @@
                                     FontSize="10"
                                     BackgroundColor="Red"
                                     HorizontalOptions="EndAndExpand"
-                                    Clicked="OnClickNuevoProducto"
+                                    Clicked="OnClickedEliminarProducto"
                                     Margin="5"/>    
                         </StackLayout>
                     </ViewCell>

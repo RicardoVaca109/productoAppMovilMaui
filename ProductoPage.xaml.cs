@@ -34,4 +34,9 @@ public partial class ProductoPage : ContentPage
         Producto producto = e.SelectedItem as Producto;
         await Navigation.PushAsync(new DetalleProductoPage(producto));
     }
+    private async void OnClickedEliminarProducto(object sender, SelectedItemChangedEventArgs e)
+    {
+
+    }
+
 }
