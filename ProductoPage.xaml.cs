@@ -6,21 +6,26 @@ using System.Threading;
 //using CommunityToolkit.Maui.Alerts;
 using productoApp.Models;
 using System.Collections.ObjectModel;
+using productoApp.Services;
 
 namespace productoApp;
 
 public partial class ProductoPage : ContentPage
 {
-	public ProductoPage()
+    ObservableCollection<Producto> products;
+    APIService _APIService;
+    public ProductoPage(APIService apiservice)
 	{
 		InitializeComponent();
+        _APIService = apiservice;
 		
 	}
-    protected override void OnAppearing()
+    protected async override async void OnAppearing()
     {
         base.OnAppearing();
-        var producto = new ObservableCollection<Producto>(Utils.Utils.ListaProductos);
-        ListaProductos.ItemsSource = producto;
+        List<Producto> ListaProducts = await _APIService.GetProducto();
+        products= new ObservableCollection<Producto>(Utils.Utils.ListaProductos);
+        ListaProductos.ItemsSource = products;
     }
     private async void OnClickNuevoProducto(object sender, EventArgs e)
     {
@@ -32,7 +37,10 @@ public partial class ProductoPage : ContentPage
     private async void OnClickedShowDetails(object sender, SelectedItemChangedEventArgs e)
     {
         Producto producto = e.SelectedItem as Producto;
-        await Navigation.PushAsync(new DetalleProductoPage(producto));
+        await Navigation.PushAsync(new DetalleProductoPage()
+        {
+            BindingContext = producto,
+        });
     }
     private async void OnClickedEliminarProducto(object sender, SelectedItemChangedEventArgs e)
     {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iXKkz03hAXI9w9XMiTGumsZ0Fc8a0sqYZGXv05hQFPXdhkxe8MiWe0yGMBUawFFw+TGEcpdGkBqyGJ8IagoBog==",
+  "dgSpecHash": "TsZ0Xl5uuYXvhkJpvDYcKLIkze1ByEaUqtbSs8AVx0I6KjV5vn/N30go0tkjjh2Da/VLsJIeEdhZ9Zq8nVK9Sg==",
   "success": true,
   "projectFilePath": "R:\\prograFinal\\productoApp\\productoApp.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.96\\microsoft.maui.graphics.win2d.winui.desktop.7.0.96.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
