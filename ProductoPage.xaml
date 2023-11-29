@@ -44,13 +44,7 @@
                                            VerticalOptions="End"
                                            FontSize="14"/>
                             </StackLayout>
-                            <Button Text="Eliminar"
-                                    TextColor="WhiteSmoke"
-                                    FontSize="10"
-                                    BackgroundColor="Red"
-                                    HorizontalOptions="EndAndExpand"
-                                    Clicked="OnClickNuevoProducto"
-                                    Margin="5"/>    
+                             
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
