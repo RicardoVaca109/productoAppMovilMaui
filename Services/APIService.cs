@@ -3,29 +3,32 @@ using productoApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace productoApp.Services
 {
-    public class APIService : IAPIService
+    public class APIService
     {
         public static string _baseUrl;
-        public HttpClient _httpClient;
-
+        //public HttpClient _httpClient;
+        HttpClient httpClient=new HttpClient();
         public APIService()
         {
-            var builder = new ConfigurationBuilder()
+            /*var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .Build();
             _baseUrl = builder.GetSection("ApiSettings:BaseUrl").Value;
             _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new Uri(_baseUrl);
+            _httpClient.BaseAddress = new Uri(_baseUrl);*/
+            _baseUrl = "https://apibodega20231127110705.azurewebsites.net";
+            httpClient.BaseAddress= new Uri(_baseUrl);
         }
         public async Task<bool> DeleteProducto(int ProductoId)
         {
-            var response = await _httpClient.DeleteAsync($"/api/Producto/{ProductoId}");
+            var response = await httpClient.DeleteAsync($"/api/Producto/{ProductoId}");
             if (response.StatusCode == HttpStatusCode.NoContent)
             {
                 return true;
@@ -35,7 +38,7 @@ namespace productoApp.Services
 
         public async Task<Producto> GetProducto(int ProveedorId)
         {
-            var response = await _httpClient.GetAsync($"/api/Producto/{ProveedorId}");
+            var response = await httpClient.GetAsync($"/api/Producto/{ProveedorId}");
             if (response.IsSuccessStatusCode)
             {
                 var json_response = await response.Content.ReadAsStringAsync();
@@ -46,7 +49,7 @@ namespace productoApp.Services
         }
         public async Task<List<Producto>> GetProductos()
         {
-            var response = await _httpClient.GetAsync("/api/Producto");
+            var response = await httpClient.GetAsync("/api/Producto");
             if (response.IsSuccessStatusCode)
             {
                 var json_response = await response.Content.ReadAsStringAsync();
@@ -60,7 +63,7 @@ namespace productoApp.Services
         public async Task<Producto> PostProducto(Producto producto)
         {
             var content = new StringContent(JsonConvert.SerializeObject(producto), Encoding.UTF8, "application/json");
-            var response = await _httpClient.PostAsync("/api/Producto/", content);
+            var response = await httpClient.PostAsync("/api/Producto/", content);
             if (response.IsSuccessStatusCode)
             {
                 var json_response = await response.Content.ReadAsStringAsync();
@@ -73,7 +76,7 @@ namespace productoApp.Services
         public async Task<Producto> PutProducto(int ProductoId, Producto producto)
         {
             var content = new StringContent(JsonConvert.SerializeObject(producto), Encoding.UTF8, "application/json");
-            var response = await _httpClient.PutAsync($"/api/Producto/{ProductoId}", content);
+            var response = await httpClient.PutAsync($"/api/Producto/{ProductoId}", content);
             if (response.IsSuccessStatusCode)
             {
                 var json_response = await response.Content.ReadAsStringAsync();

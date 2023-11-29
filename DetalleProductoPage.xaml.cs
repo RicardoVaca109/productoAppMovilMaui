@@ -1,14 +1,18 @@
 using productoApp.Models;
+using productoApp.Services;
 
 namespace productoApp;
 
 public partial class DetalleProductoPage : ContentPage
 {
     private Producto _producto;
-	public DetalleProductoPage()
+    private readonly APIService _APIService;
+
+    public DetalleProductoPage(APIService apiservice)
 	{
         InitializeComponent();
-	}
+        _APIService = apiservice;
+    }
 
     protected override void OnAppearing()
     {
@@ -22,14 +26,16 @@ public partial class DetalleProductoPage : ContentPage
     }
     private async void ClickEliminarProducto(object sender, EventArgs e)
     {
-        Utils.Utils.ListaProductos.Remove(_producto);
+        //Utils.Utils.ListaProductos.Remove(_producto);
+        await _APIService.DeleteProducto(_producto.ProductoId);
         await Navigation.PopAsync();
     }
 
     private async void ClickEditarProducto(object sender, EventArgs e)
     {
-        
-        await Navigation.PushAsync(new NuevoProducto()
+        //var toast = CommunityToolkit.Maui.Alerts.Toast.Make(_producto.Nombre, ToastDuration.Short, 14);
+        //await toast.Show();
+        await Navigation.PushAsync(new NuevoProducto(_APIService)
         {
 
             BindingContext = _producto

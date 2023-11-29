@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XRRLQhzYPYCdR4CQeyTYAq+Xt9Rw7GC5UTV6g3RtOige8YdLyqnrbavfNt7++GZcceILS2w7sfXkXIzf/UmsFQ==",
+  "dgSpecHash": "61q0mHmijf6gpdFGPdedFzuwutMEsVdr/fCAn9vDQvfQm7ld1JDI75oPDT3AGsAUR6JVTenjRbOd4/SyWQ1uqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\laboratorio\\Source\\Repos\\productoAppMovilMaui\\productoApp.csproj",
+  "projectFilePath": "C:\\Users\\laboratorio\\source\\repos\\productoAppMovilMaui\\productoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\laboratorio\\.nuget\\packages\\communitytoolkit.maui\\6.1.0\\communitytoolkit.maui.6.1.0.nupkg.sha512",
     "C:\\Users\\laboratorio\\.nuget\\packages\\communitytoolkit.maui.core\\6.1.0\\communitytoolkit.maui.core.6.1.0.nupkg.sha512",
