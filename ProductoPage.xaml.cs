@@ -7,6 +7,7 @@ using System.Threading;
 using productoApp.Models;
 using System.Collections.ObjectModel;
 using productoApp.Services;
+using CommunityToolkit.Maui.Core;
 
 namespace productoApp;
 
@@ -20,7 +21,7 @@ public partial class ProductoPage : ContentPage
         _APIService = apiservice;
 		
 	}
-    protected async override async void OnAppearing()
+    protected async override  void OnAppearing()
     {
         base.OnAppearing();
         List<Producto> ListaProducts = await _APIService.GetProducto();
@@ -29,8 +30,8 @@ public partial class ProductoPage : ContentPage
     }
     private async void OnClickNuevoProducto(object sender, EventArgs e)
     {
-        //var toast = CommunityToolkit.Maui.Alerts.Toast.Make("Click en nuevo producto", ToastDuration.Short, 14);
-        //await toast.Show();
+        var toast = CommunityToolkit.Maui.Alerts.Toast.Make("Click en nuevo producto", ToastDuration.Short, 14);
+        await toast.Show();
         await Navigation.PushAsync(new NuevoProducto());
 
     }
