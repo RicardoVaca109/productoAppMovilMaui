@@ -44,6 +44,7 @@
                                            VerticalOptions="End"
                                            FontSize="14"/>
                             </StackLayout>
+<<<<<<< HEAD
                             <Button Text="Eliminar"
                                     TextColor="WhiteSmoke"
                                     FontSize="10"
@@ -51,6 +52,9 @@
                                     HorizontalOptions="EndAndExpand"
                                     Clicked="OnClickedEliminarProducto"
                                     Margin="5"/>    
+=======
+                             
+>>>>>>> 7fcd1235e5d4a330986a8999c3738b7166d87373
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TsZ0Xl5uuYXvhkJpvDYcKLIkze1ByEaUqtbSs8AVx0I6KjV5vn/N30go0tkjjh2Da/VLsJIeEdhZ9Zq8nVK9Sg==",
   "success": true,
   "projectFilePath": "R:\\prograFinal\\productoApp\\productoApp.csproj",
+=======
+  "dgSpecHash": "61q0mHmijf6gpdFGPdedFzuwutMEsVdr/fCAn9vDQvfQm7ld1JDI75oPDT3AGsAUR6JVTenjRbOd4/SyWQ1uqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\laboratorio\\source\\repos\\productoAppMovilMaui\\productoApp.csproj",
+>>>>>>> 7fcd1235e5d4a330986a8999c3738b7166d87373
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\communitytoolkit.maui\\6.1.0\\communitytoolkit.maui.6.1.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\communitytoolkit.maui.core\\6.1.0\\communitytoolkit.maui.core.6.1.0.nupkg.sha512",
