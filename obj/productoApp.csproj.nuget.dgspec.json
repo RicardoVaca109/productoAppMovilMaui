@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "R:\\prograFinal\\productoApp\\productoApp.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "R:\\prograFinal\\productoApp\\productoApp.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
         "outputPath": "R:\\prograFinal\\productoApp\\obj\\",
-=======
-    "C:\\Users\\laboratorio\\source\\repos\\productoAppMovilMaui\\productoApp.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\laboratorio\\source\\repos\\productoAppMovilMaui\\productoApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\laboratorio\\source\\repos\\productoAppMovilMaui\\productoApp.csproj",
-        "projectName": "productoApp",
-        "projectPath": "C:\\Users\\laboratorio\\source\\repos\\productoAppMovilMaui\\productoApp.csproj",
-        "packagesPath": "C:\\Users\\laboratorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laboratorio\\source\\repos\\productoAppMovilMaui\\obj\\",
->>>>>>> 7fcd1235e5d4a330986a8999c3738b7166d87373
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

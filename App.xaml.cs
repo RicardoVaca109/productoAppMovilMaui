@@ -7,8 +7,8 @@ namespace productoApp
         public App()
         {
             InitializeComponent();
-            //APIService apiservice = new APIService(); apiservice
-            MainPage = new NavigationPage(new ProductoPage());
+            APIService apiservice = new APIService();
+            MainPage = new NavigationPage(new ProductoPage(apiservice));
         }
     }
 }
