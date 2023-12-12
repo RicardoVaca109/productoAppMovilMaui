@@ -2,62 +2,50 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="productoApp.ProductoPage"
-             Title="ProductoPage">
-    <VerticalStackLayout>
-        <HorizontalStackLayout
-             BackgroundColor="Aquamarine">
-            <Image Source="dotnet_bot.png"
-                   HeightRequest="50"
-                   WidthRequest="50"
-                   />
-            <Label Text="ProductoApp"
-                   FontSize="35"
-                   TextColor="Black"/>
-        </HorizontalStackLayout>
+             Title="Productos ">
+    <StackLayout>
+        <!-- Encabezado -->
+        <StackLayout BackgroundColor="CadetBlue" Padding="10,20,10,10">
+            <Image Source="bodega.jpg" HeightRequest="90" WidthRequest="90"/>
+            <Label Text="ProductoApp" FontSize="35" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+
+        <!-- Botón Nuevo Producto -->
         <Button Text="Nuevo Producto"
                 FontSize="20"
-                HorizontalOptions="Fill"
+                HorizontalOptions="FillAndExpand"
                 Clicked="OnClickNuevoProducto"
-                Margin="5"/>
+                Margin="5,10"/>
+
+        <!-- Lista de Productos -->
         <ListView x:Name="ListaProductos"
-                  RowHeight="80"
+                  RowHeight="120"
                   ItemSelected="OnClickedShowDetails">
-        
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Orientation="Horizontal">
-                            <Image Source="dotnet_bot.png"
-                                       HeightRequest="50"
-                                       WidthRequest="100"/>
-                            <StackLayout Orientation="Vertical">
-                                <Label 
-                                        Text = "{Binding Nombre, StringFormat='Nombre: {0}' }"
-                                        VerticalOptions="Start"
-                                        FontSize="20"
-                                        
-                                        />
-                                <Label 
-                                           Text = "{Binding CtdenStock, StringFormat='Cantidad en Stock: {0}'}"
-                                           VerticalOptions="Center"
-                                           FontSize="15"
-                                           
-                                        />
-                                
-                                <Label Text="{Binding Precio, StringFormat='Precio: ${0:F2}'}"
-                                           VerticalOptions="End"
-                                           FontSize="14"
-                                          
-                                        />
-                                <Label Text="{Binding ProveedorId, StringFormat='Proveedor Id: {0}'}"
-                                             VerticalOptions="End"
-                                             FontSize="14"
-                                             />
-                            </StackLayout>
+                        <StackLayout Padding="10,5,10,5" BackgroundColor="#E8E8E8" Margin="5">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Imagen -->
+                                <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+
+                                <!-- Detalles del Producto -->
+                                <StackLayout Grid.Column="1" Margin="10,0,0,0">
+                                    <Label Text="{Binding Nombre}" FontSize="18" FontAttributes="Bold"/>
+                                    <Label Text="{Binding CtdenStock, StringFormat='Stock: {0}'}" FontSize="15" TextColor="#007ACC"/>
+                                    <Label Text="{Binding Precio, StringFormat='Precio: ${0:F2}'}" FontSize="14" TextColor="#2E8B57"/>
+                                    <Label Text="{Binding ProveedorId, StringFormat='Proveedor: {0}'}" FontSize="14" TextColor="#800080"/>
+                                </StackLayout>
+                            </Grid>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-    </VerticalStackLayout>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

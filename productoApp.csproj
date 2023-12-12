@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\bodega.jpg" />
 	  <None Remove="x5hsboup.dof~" />
 	</ItemGroup>
 
@@ -67,6 +68,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="DetalleProductoPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="NuevoProductoPage.xaml">

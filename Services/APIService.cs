@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -88,7 +89,7 @@ namespace productoApp.Services
 
         public async Task<List<User>> GetUsers()
         {
-            var response = await httpClient.GetAsync("api/User");
+            var response = await httpClient.GetAsync("/api/User");
             if (response.IsSuccessStatusCode)
             {
                 var json_response = await response.Content.ReadAsStringAsync();
@@ -101,7 +102,7 @@ namespace productoApp.Services
 
         public async Task<User> GetUser(int IdUser)
         {
-            var response = await httpClient.GetAsync($"api/User/{IdUser}");
+            var response = await httpClient.GetAsync($"/api/User/{IdUser}");
             if (response.IsSuccessStatusCode)
             {
                 var json_response = await response.Content.ReadAsStringAsync();
@@ -119,7 +120,7 @@ namespace productoApp.Services
             if (userToValidate != null)
             {
                 var content = new StringContent(JsonConvert.SerializeObject(userToValidate), Encoding.UTF8, "application/json");
-                var response = await httpClient.PostAsync("api/User", content);
+                var response = await httpClient.PostAsync("/api/User", content);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -138,7 +139,7 @@ namespace productoApp.Services
         public async Task<User> PostUser(User newUser)
         {
             var content = new StringContent(JsonConvert.SerializeObject(newUser), Encoding.UTF8, "application/json");
-            var response = await httpClient.PostAsync("api/User/create", content);
+            var response = await httpClient.PostAsync("/api/User/create", content);
             if (response.IsSuccessStatusCode)
             {
                 var json_response = await response.Content.ReadAsStringAsync();

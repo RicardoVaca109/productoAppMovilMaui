@@ -29,29 +29,29 @@
     <AppXManifest Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-12T03:29:44.574</Modified>
+      <Modified>2023-12-12T05:38:44.166</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-12T03:03:33.009</Modified>
+      <Modified>2023-12-12T05:38:43.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\productoApp.runtimeconfig.json">
       <PackagePath>productoApp.runtimeconfig.json</PackagePath>
-      <Modified>2023-12-11T06:14:33.347</Modified>
+      <Modified>2023-12-12T04:03:33.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\productoApp.dll">
       <PackagePath>productoApp.dll</PackagePath>
-      <Modified>2023-12-12T03:29:43.689</Modified>
+      <Modified>2023-12-12T05:38:43.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>productoApp.exe</PackagePath>
-      <Modified>2023-12-12T03:29:43.694</Modified>
+      <Modified>2023-12-12T05:38:43.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\productoApp.deps.json">
       <PackagePath>productoApp.deps.json</PackagePath>
-      <Modified>2023-12-11T06:14:33.257</Modified>
+      <Modified>2023-12-12T04:32:48.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.13\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -983,207 +983,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-11-13T20:19:35.532</Modified>
+      <Modified>2023-12-12T04:03:04.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.694</Modified>
+      <Modified>2023-12-12T04:03:04.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.702</Modified>
+      <Modified>2023-12-12T04:03:04.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.710</Modified>
+      <Modified>2023-12-12T04:03:04.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.722</Modified>
+      <Modified>2023-12-12T04:03:04.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.770</Modified>
+      <Modified>2023-12-12T04:03:04.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.577</Modified>
+      <Modified>2023-12-12T04:03:04.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.579</Modified>
+      <Modified>2023-12-12T04:03:04.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.588</Modified>
+      <Modified>2023-12-12T04:03:04.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.582</Modified>
+      <Modified>2023-12-12T04:03:04.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.583</Modified>
+      <Modified>2023-12-12T04:03:04.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.565</Modified>
+      <Modified>2023-12-12T04:03:04.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.567</Modified>
+      <Modified>2023-12-12T04:03:04.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.575</Modified>
+      <Modified>2023-12-12T04:03:04.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.569</Modified>
+      <Modified>2023-12-12T04:03:04.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.571</Modified>
+      <Modified>2023-12-12T04:03:04.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.541</Modified>
+      <Modified>2023-12-12T04:03:04.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.543</Modified>
+      <Modified>2023-12-12T04:03:04.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.545</Modified>
+      <Modified>2023-12-12T04:03:04.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.547</Modified>
+      <Modified>2023-12-12T04:03:04.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.551</Modified>
+      <Modified>2023-12-12T04:03:04.056</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.553</Modified>
+      <Modified>2023-12-12T04:03:04.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.555</Modified>
+      <Modified>2023-12-12T04:03:04.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.563</Modified>
+      <Modified>2023-12-12T04:03:04.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.557</Modified>
+      <Modified>2023-12-12T04:03:04.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.559</Modified>
+      <Modified>2023-12-12T04:03:04.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.617</Modified>
+      <Modified>2023-12-12T04:03:04.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.620</Modified>
+      <Modified>2023-12-12T04:03:04.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.624</Modified>
+      <Modified>2023-12-12T04:03:04.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.630</Modified>
+      <Modified>2023-12-12T04:03:04.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.642</Modified>
+      <Modified>2023-12-12T04:03:04.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.602</Modified>
+      <Modified>2023-12-12T04:03:04.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.604</Modified>
+      <Modified>2023-12-12T04:03:04.132</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.607</Modified>
+      <Modified>2023-12-12T04:03:04.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.609</Modified>
+      <Modified>2023-12-12T04:03:04.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.614</Modified>
+      <Modified>2023-12-12T04:03:04.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.590</Modified>
+      <Modified>2023-12-12T04:03:04.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.592</Modified>
+      <Modified>2023-12-12T04:03:04.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.594</Modified>
+      <Modified>2023-12-12T04:03:04.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.596</Modified>
+      <Modified>2023-12-12T04:03:04.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.600</Modified>
+      <Modified>2023-12-12T04:03:04.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.646</Modified>
+      <Modified>2023-12-12T04:03:04.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.651</Modified>
+      <Modified>2023-12-12T04:03:04.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.656</Modified>
+      <Modified>2023-12-12T04:03:04.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.665</Modified>
+      <Modified>2023-12-12T04:03:04.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.688</Modified>
+      <Modified>2023-12-12T04:03:04.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bodega.scale-100.jpg">
+      <PackagePath>bodega.scale-100.jpg</PackagePath>
+      <Modified>2023-12-12T04:01:54.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.571</Modified>
+      <Modified>2023-12-12T04:03:04.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.578</Modified>
+      <Modified>2023-12-12T04:03:03.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.587</Modified>
+      <Modified>2023-12-12T04:03:03.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.600</Modified>
+      <Modified>2023-12-12T04:03:03.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-11-13T20:19:35.633</Modified>
+      <Modified>2023-12-12T04:03:03.958</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

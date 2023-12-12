@@ -9836,7 +9836,7 @@
         }
       }
     },
-    "net7.0-android33.0/iossimulator-x64": {
+    "net7.0-android33.0/ios-arm64": {
       "CommunityToolkit.Maui/6.1.0": {
         "type": "package",
         "dependencies": {
@@ -16867,7 +16867,7 @@
         }
       }
     },
-    "net7.0-ios16.1/iossimulator-x64": {
+    "net7.0-ios16.1/ios-arm64": {
       "CommunityToolkit.Maui/6.1.0": {
         "type": "package",
         "dependencies": {
@@ -18675,7 +18675,7 @@
         }
       }
     },
-    "net7.0-maccatalyst16.1/iossimulator-x64": {
+    "net7.0-maccatalyst16.1/ios-arm64": {
       "CommunityToolkit.Maui/6.1.0": {
         "type": "package",
         "dependencies": {
@@ -21167,7 +21167,7 @@
         }
       }
     },
-    "net7.0-windows10.0.19041/iossimulator-x64": {
+    "net7.0-windows10.0.19041/ios-arm64": {
       "CommunityToolkit.Maui/6.1.0": {
         "type": "package",
         "dependencies": {
@@ -26080,7 +26080,7 @@
       "android-x86": {
         "#import": []
       },
-      "iossimulator-x64": {
+      "ios-arm64": {
         "#import": []
       },
       "maccatalyst-x64": {
@@ -26090,13 +26090,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché R:\\prograFinal\\productoApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

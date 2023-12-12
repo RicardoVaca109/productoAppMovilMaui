@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TsZ0Xl5uuYXvhkJpvDYcKLIkze1ByEaUqtbSs8AVx0I6KjV5vn/N30go0tkjjh2Da/VLsJIeEdhZ9Zq8nVK9Sg==",
+  "dgSpecHash": "QK0Pv5BzDShXW909ywIX33rVgNBc83vnxMJX9OTCvZGlMdLtTV87ARau+4P1OmuLr8z3BzHv5kGiIF/TjdXmTA==",
   "success": true,
   "projectFilePath": "R:\\prograFinal\\productoApp\\productoApp.csproj",
   "expectedPackageFiles": [
@@ -109,12 +109,5 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.13.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.13\\microsoft.netcore.app.runtime.win-x64.7.0.13.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché R:\\prograFinal\\productoApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
