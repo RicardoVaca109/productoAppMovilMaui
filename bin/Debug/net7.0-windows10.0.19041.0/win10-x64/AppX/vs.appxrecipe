@@ -29,13 +29,13 @@
     <AppXManifest Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-11T06:16:33.981</Modified>
+      <Modified>2023-12-12T03:29:44.574</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-11T06:14:33.641</Modified>
+      <Modified>2023-12-12T03:03:33.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\productoApp.runtimeconfig.json">
       <PackagePath>productoApp.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\productoApp.dll">
       <PackagePath>productoApp.dll</PackagePath>
-      <Modified>2023-12-11T06:16:33.085</Modified>
+      <Modified>2023-12-12T03:29:43.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>productoApp.exe</PackagePath>
-      <Modified>2023-12-11T06:16:33.089</Modified>
+      <Modified>2023-12-12T03:29:43.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="R:\prograFinal\productoApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\productoApp.deps.json">
       <PackagePath>productoApp.deps.json</PackagePath>

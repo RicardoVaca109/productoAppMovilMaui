@@ -34,15 +34,25 @@
                                 <Label 
                                         Text = "{Binding Nombre, StringFormat='Nombre: {0}' }"
                                         VerticalOptions="Start"
-                                        FontSize="20"  
+                                        FontSize="20"
+                                        
                                         />
                                 <Label 
                                            Text = "{Binding CtdenStock, StringFormat='Cantidad en Stock: {0}'}"
                                            VerticalOptions="Center"
-                                           FontSize="15"/>
+                                           FontSize="15"
+                                           
+                                        />
+                                
                                 <Label Text="{Binding Precio, StringFormat='Precio: ${0:F2}'}"
                                            VerticalOptions="End"
-                                           FontSize="14"/>
+                                           FontSize="14"
+                                          
+                                        />
+                                <Label Text="{Binding ProveedorId, StringFormat='Proveedor Id: {0}'}"
+                                             VerticalOptions="End"
+                                             FontSize="14"
+                                             />
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>

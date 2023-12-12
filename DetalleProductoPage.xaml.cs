@@ -22,6 +22,7 @@ public partial class DetalleProductoPage : ContentPage
         Descripcion.Text = _producto.Descripcion;
         CtdenStock.Text = _producto.CtdenStock.ToString();
         Precio.Text = _producto.Precio.ToString();
+        ProveedorId.Text = _producto.ProveedorId.ToString();
 
     }
     private async void ClickEliminarProducto(object sender, EventArgs e)
