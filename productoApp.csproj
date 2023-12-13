@@ -32,10 +32,15 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		
+		<MauiIcon Include="Resources\Images\logo.png" Color="White" ForegroundScale="0.80">
+		  <Color>#A2D9CE</Color>
+		  <BaseSize>128,128</BaseSize>
+		</MauiIcon>
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\logo.png" Color="#A2D9CE" BaseSize="128,128" />
+		
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -49,8 +54,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\Logo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\bodega.jpg" />
+	  <None Remove="Resources\Images\login_logo.png" />
+	  <None Remove="Resources\Images\Logo.png" />
 	  <None Remove="x5hsboup.dof~" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiSplashScreen Include="Resources\Splash\Logo.png" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -2,57 +2,59 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="productoApp.DetalleProductoPage"
-             Title="Detalle Productos">
-    <VerticalStackLayout>
+             Title="Detalle Producto">
+    <VerticalStackLayout Spacing="15" Padding="20">
         <Image Source="dotnet_bot.png"
                HorizontalOptions="Center"
                HeightRequest="200"/>
         <Label x:Name="Nombre"
-               Text="Nombre"
+               Text="Nombre del Producto"
                FontSize="32"
                HorizontalOptions="Center"/>
         <StackLayout Orientation="Horizontal">
-            <Label Text="CtdenStock: "
-                    FontSize="18"/>
+            <Label Text="Cantidad en Stock: "
+                   FontSize="18"/>
             <Label x:Name="CtdenStock"
-                    Text="CtdenStock"
-                    FontSize="18"/>
+                   Text="Cantidad en Stock"
+                   FontSize="18"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Label Text="Descripcion: "
-                    FontSize="18"/>
+            <Label Text="Descripción: "
+                   FontSize="18"/>
             <Label x:Name="Descripcion"
-                    Text="Descripcion"
-                    FontSize="18"/>
+                   Text="Descripción del Producto"
+                   FontSize="18"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
             <Label Text="Precio: "
-            FontSize="18"/>
+                   FontSize="18"/>
             <Label x:Name="Precio"
-            Text="Precio"
-            FontSize="18"/>
+                   Text="Precio del Producto"
+                   FontSize="18"/>
+            <Label Text=" USD"
+                   FontSize="18"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Label Text="ProveedorId: "
-            FontSize="18"/>
+            <Label Text="Proveedor ID: "
+                   FontSize="18"/>
             <Label x:Name="ProveedorId"
-            Text="ProveedorId"
-            FontSize="18"/>
+                   Text="ID del Proveedor"
+                   FontSize="18"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
             <Button Text="Borrar"
-                Clicked="ClickEliminarProducto"
-                FontSize="20"
-                Margin="5"
-                HorizontalOptions="FillAndExpand"
-                BackgroundColor="Red"/>
+                    Clicked="ClickEliminarProducto"
+                    FontSize="20"
+                    Margin="5"
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="Red"/>
             <Button Text="Editar"
-                Clicked="ClickEditarProducto"
-                FontSize="20"
-                Margin="5"
-                HorizontalOptions="FillAndExpand"
-                TextColor="Black"
-                BackgroundColor="Orange"/>
+                    Clicked="ClickEditarProducto"
+                    FontSize="20"
+                    Margin="5"
+                    HorizontalOptions="FillAndExpand"
+                    TextColor="Black"
+                    BackgroundColor="Orange"/>
         </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

@@ -28,6 +28,7 @@ namespace productoApp
                 Descripcion.Text = _producto.Descripcion;
                 CtdenStock.Text = _producto.CtdenStock.ToString();
                 Precio.Text = _producto.Precio.ToString();
+                ProveedorId.Text = _producto.ProveedorId.ToString();
             }
         }
 
@@ -41,7 +42,9 @@ namespace productoApp
                     _producto.Descripcion = Descripcion.Text;
                     _producto.CtdenStock = int.Parse(CtdenStock.Text);
                     _producto.Precio = float.Parse(Precio.Text);
-                    
+                    _producto.ProveedorId = int.Parse(ProveedorId.Text);
+
+
                     await _APIService.PutProducto(_producto.ProductoId, _producto);
                 }
                 else

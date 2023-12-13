@@ -39,7 +39,7 @@
                                     <Label Text="{Binding Nombre}" FontSize="18" FontAttributes="Bold"/>
                                     <Label Text="{Binding CtdenStock, StringFormat='Stock: {0}'}" FontSize="15" TextColor="#007ACC"/>
                                     <Label Text="{Binding Precio, StringFormat='Precio: ${0:F2}'}" FontSize="14" TextColor="#2E8B57"/>
-                                    <Label Text="{Binding ProveedorId, StringFormat='Proveedor: {0}'}" FontSize="14" TextColor="#800080"/>
+                                    <Label Text="{Binding ProveedorId, StringFormat='Proveedor ID: {0}'}" FontSize="14" TextColor="#800080"/>
                                 </StackLayout>
                             </Grid>
                         </StackLayout>
