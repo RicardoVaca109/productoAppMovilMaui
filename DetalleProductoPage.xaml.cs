@@ -36,7 +36,7 @@ public partial class DetalleProductoPage : ContentPage
     {
         //var toast = CommunityToolkit.Maui.Alerts.Toast.Make(_producto.Nombre, ToastDuration.Short, 14);
         //await toast.Show();
-        await Navigation.PushAsync(new NuevoProducto(_APIService)
+        await Navigation.PushAsync(new NuevoProductoEditar(_APIService)
         {
 
             BindingContext = _producto

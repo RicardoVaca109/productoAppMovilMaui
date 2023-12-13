@@ -2,15 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="productoApp.NuevoProducto"
-             Title="Editar Producto">
+             Title="Ingreso Productos">
 
     <VerticalStackLayout>
         <StackLayout>
-            <Entry x:Name="Nombre" Placeholder="Nombre" IsEnabled="False"/>
+            <Entry x:Name="Nombre" Placeholder="Nombre" />
             <Entry x:Name="Descripcion" Placeholder="Descripcion"/>
             <Entry x:Name="CtdenStock" Placeholder="Cantidad en Stock" TextChanged="OnCantidadChanged"/>
             <Entry x:Name="Precio" Placeholder="Precio" TextChanged="OnPrecioChanged"/>
-            <Entry x:Name="ProveedorId" Placeholder="ProveedorId" IsEnabled="False"/>
+            <Entry x:Name="ProveedorId" Placeholder="ProveedorId" />
 
         </StackLayout>
         <Button Text="Guardar Producto"

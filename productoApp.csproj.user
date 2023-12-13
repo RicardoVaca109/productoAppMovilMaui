@@ -30,6 +30,9 @@
     <MauiXaml Update="MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="NuevoProductoEditar.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="NuevoProductoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

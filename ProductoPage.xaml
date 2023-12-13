@@ -36,7 +36,8 @@
 
                                 <!-- Detalles del Producto -->
                                 <StackLayout Grid.Column="1" Margin="10,0,0,0">
-                                    <Label Text="{Binding Nombre}" FontSize="18" FontAttributes="Bold"/>
+                                    <!-- Cambio de TextColor a Negro -->
+                                    <Label Text="{Binding Nombre}" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
                                     <Label Text="{Binding CtdenStock, StringFormat='Stock: {0}'}" FontSize="15" TextColor="#007ACC"/>
                                     <Label Text="{Binding Precio, StringFormat='Precio: ${0:F2}'}" FontSize="14" TextColor="#2E8B57"/>
                                     <Label Text="{Binding ProveedorId, StringFormat='Proveedor ID: {0}'}" FontSize="14" TextColor="#800080"/>
