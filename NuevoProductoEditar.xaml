@@ -6,11 +6,11 @@
 
     <VerticalStackLayout>
         <StackLayout>
-            <Entry x:Name="Nombre" Placeholder="Nombre" />
-            <Entry x:Name="Descripcion" Placeholder="Descripcion"/>
+            <Entry x:Name="Nombre" Placeholder="Nombre" IsEnabled="False"/>
+            <Entry x:Name="Descripcion" Placeholder="Descripcion" IsEnabled="False"/>
             <Entry x:Name="CtdenStock" Placeholder="Cantidad en Stock" TextChanged="OnCantidadChanged"/>
             <Entry x:Name="Precio" Placeholder="Precio" TextChanged="OnPrecioChanged"/>
-            
+            <Entry x:Name="ProveedorId" Placeholder="Proveedor ID" IsEnabled="False" />
 
         </StackLayout>
         <Button Text="Guardar Producto"
